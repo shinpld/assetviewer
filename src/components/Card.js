@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Card = ({asset_id,desc,desc2,location,bld,sn,room,sup}) => {
+const Card = ({asset_id,desc,desc2,location,bld,sn,room,sup,rem,upd,rack}) => {
 
   return (
   <div className='tc bg-white dib br3 pa3 ma2 grow bw2 w-90 shadow-5'>
@@ -19,7 +19,7 @@ const Card = ({asset_id,desc,desc2,location,bld,sn,room,sup}) => {
             </div>
             <div class="dtc-ns tc pv2 bg-black-05">
               <dt class="dib b">Description:</dt>
-              <dd class="dib ml0 dark-gray">{desc}</dd>
+              <dd class="dib ml0 dark-gray">{desc} {desc2} </dd>
             </div>
             <div class="dtc-ns tc pv2 bg-black-10">
                <dt class="dib b">สถานที่ตั้ง:</dt>
@@ -41,7 +41,21 @@ const Card = ({asset_id,desc,desc2,location,bld,sn,room,sup}) => {
                <dd class="dib ml0 dark-gray">{sup}</dd>
             </div>
           </div>
-
+          
+          <div className="dt-ns dt--fixed-ns">
+            <div class="dtc-ns tc pv2 bg-black-10">
+              <dt class="dib b">Remark: </dt>
+              <dd class="dib ml0 dark-gray">{rem}</dd>
+            </div>
+            <div class="dtc-ns tc pv2 bg-black-05">
+              <dt class="dib b">Rack: </dt>
+              <dd class="dib ml0 dark-gray">{rack}</dd>
+            </div>
+            <div class="dtc-ns tc pv2 bg-black-10">
+               <dt class="dib b">Updated:</dt>
+               <dd class="dib ml0 dark-gray">{upd}</dd>
+            </div>
+          </div>
        
     </div>
   </div>

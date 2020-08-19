@@ -15,6 +15,9 @@ const cardsArray = items.map((user,i)=>{
     sn={items[i].Serial_number}
     room={items[i].Room}
     sup={items[i].Asset_Sup}
+    rem={items[i].Remark}
+    upd={items[i].Updated}
+    rack={items[i].Rack}
     
     />
 })
