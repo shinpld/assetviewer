@@ -25,28 +25,27 @@ class App extends Component{
   }
 
   componentDidMount(){
-    /* fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(users=>{
-        this.setState({robots:users})
-      }); */
-      
+
    
         base.syncState(`AeroAsset`, {
           context: this,
           state: 'items',
           asArray: true
         });
+        
       
   }
 
 
+
   render(){
     const {items, searchfield} =this.state;
-    const filteredItems = this.state.items
-    .filter(items=>{
-      return (
-    items.Asset_Sup.toString().toLowerCase().includes(searchfield.toLowerCase())
+    const filteredItems = this.state.items.filter(items=>{
+      return (items.Asset.toString().toLowerCase().includes(searchfield.toLowerCase())
+    ||items.Location.toString().toLowerCase().includes(searchfield.toLowerCase())
+    ||items.Building_Fl.toString().toLowerCase().includes(searchfield.toLowerCase())
+    ||items.Asset_description.toString().toLowerCase().includes(searchfield.toLowerCase())
+    ||items.Asset_Sup.toString().toLowerCase().includes(searchfield.toLowerCase())
     );
 
     }  )
@@ -61,7 +60,7 @@ class App extends Component{
         <h1 className='f1'> AssetViewer </h1>
         <SearchBox searchChange={this.onSearchChange}/>
         <Scroll>
-          <CardList items={filteredItems.splice(0,30)} />
+          <CardList items={filteredItems} />
         </Scroll>
       </div>
     );

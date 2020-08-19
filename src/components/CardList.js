@@ -11,7 +11,7 @@ const cardsArray = items.map((user,i)=>{
     location={items[i].Location} 
     bld={items[i].Building_Fl}
     desc={items[i].Asset_description}
-    desc2={items[i].Description2}
+    desc2={items[i].Description_2}
     sn={items[i].Serial_number}
     room={items[i].Room}
     sup={items[i].Asset_Sup}
