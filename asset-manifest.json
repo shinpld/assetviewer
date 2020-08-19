@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/assetviewer/static/css/main.043682d4.chunk.css",
+    "main.js": "/assetviewer/static/js/main.d1a0e0f4.chunk.js",
+    "main.js.map": "/assetviewer/static/js/main.d1a0e0f4.chunk.js.map",
+    "runtime-main.js": "/assetviewer/static/js/runtime-main.2de47d8a.js",
+    "runtime-main.js.map": "/assetviewer/static/js/runtime-main.2de47d8a.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/assetviewer/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7d201ee7.chunk.js": "/assetviewer/static/js/2.7d201ee7.chunk.js",
+    "static/js/2.7d201ee7.chunk.js.map": "/assetviewer/static/js/2.7d201ee7.chunk.js.map",
+    "index.html": "/assetviewer/index.html",
+    "precache-manifest.a3068a9454ab81aa27ca5f3b6be80e9b.js": "/assetviewer/precache-manifest.a3068a9454ab81aa27ca5f3b6be80e9b.js",
+    "service-worker.js": "/assetviewer/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/assetviewer/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.043682d4.chunk.css.map": "/assetviewer/static/css/main.043682d4.chunk.css.map",
+    "static/js/2.7d201ee7.chunk.js.LICENSE.txt": "/assetviewer/static/js/2.7d201ee7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/assetviewer/static/media/SEGA.12a3db8b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2de47d8a.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7d201ee7.chunk.js",
+    "static/css/main.043682d4.chunk.css",
+    "static/js/main.d1a0e0f4.chunk.js"
+  ]
+}
